@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
 
-    <title>Child Page Template</title>
+    <title>JavaScript Assignments</title>
 
     <meta name="author" content="Mark Mercer">
     <meta name="description" content="JavaScript Assignments"> <!-- Webpage Description to poplulate search engines like Google-->
@@ -18,7 +18,7 @@
   <body>
 
     <header><h1>JavaScript Assignments</h1></header>
-      <h3>Assignmen: [Name]</h3>
+      <h3>Assignment: LandScape Or Portrait</h3>
       <article><p></p></article>
     </section>
 
@@ -36,18 +36,15 @@
       <label for="textfield2">Number 2:</label>
       <input name="textfield2" type="text" id="textfield2">
     </p>
-    <!-- Textarea is mutliline plain text editing control-->
-    <p>
-      <label for="tArea">Text Area:</label>
-      <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
-    </p>
     <p>&nbsp;</p>
 
       <fieldset>
         <legend>Case Studies</legend>
         <div> Test Cases
           <ul>
-            <li>
+            <li> Width is greater than height, return LandScape
+            <li> Width is less than Height, return Portrait
+            <li> Width is equl to height, return square
           </ul>
         </div>
           <label>
@@ -75,7 +72,6 @@
             <li>
           </ul>
         </div>
-        
           <label>
             <input type="checkbox" name="CheckboxGroup1" nalue="checkbox1" id="CheckboxGroup1_0">
             Checkbox 1
@@ -96,8 +92,10 @@
       <p>&nbsp;</p>
       <!-- Submit Button-->
       <input type="submit" id="subBtn" value="Submit information" />
+      <br>
+      <p id="large"></p>
 
-      <script src="../scripts/childTemplate.js"></script>
+      <script src="../scripts/LandscapePortait.js"></script>
 
   </body>
 
