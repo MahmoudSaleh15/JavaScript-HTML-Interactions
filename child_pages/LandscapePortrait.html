@@ -29,11 +29,11 @@
     <!-- See: https://www.w3schools.com/html/html_entities.asp-->
     <!-- Non-breaking real space, adds real space to webpage that is not eliminated by browser (hard coded space)-->
     <p>
-      <label for="textfield">Number 1:</label>
+      <label for="textfield">Width:</label>
       <input name="textfield1" type="text" id="textfield1">
     </p>
     <p>
-      <label for="textfield2">Number 2:</label>
+      <label for="textfield2">Height:</label>
       <input name="textfield2" type="text" id="textfield2">
     </p>
     <p>&nbsp;</p>
@@ -63,35 +63,10 @@
           </label>
           <br>
         </fieldset>
-
-    <p>&nbsp;</p>
-      <fieldset>
-        <legend>Case Tests</legend>
-        <div> Test Cases
-          <ul>
-            <li>
-          </ul>
-        </div>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" nalue="checkbox1" id="CheckboxGroup1_0">
-            Checkbox 1
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" nalue="checkbox2" id="CheckboxGroup1_1">
-            Checkbox 2
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" nalue="checkbox3" id="CheckboxGroup1_2">
-            Checkbox 3
-          </label>
-          <br>
-      </fieldset>
-
       <p>&nbsp;</p>
+
       <!-- Submit Button-->
-      <input type="submit" id="subBtn" value="Submit information" />
+      <button type="button" onclick="main()">Submit</button>
       <br>
       <p id="large"></p>
 
