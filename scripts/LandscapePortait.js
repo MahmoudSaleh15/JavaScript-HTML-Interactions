@@ -14,12 +14,11 @@ function testNaN (number) {
 
 }
 
-function geometry (width, height) { // Notice these parape
+function geometry (width, height) {
   if (width == height) return 'Square';
 
 }
 
-// This coding illustrates the advanced method
 function main () {
 
   let firstNumber, secondNumber, text;
@@ -36,7 +35,7 @@ function main () {
 
   if (stop == true)
   {
-    document.getElementById("large").innerHTML = "Restart because I said so."
+    document.getElementById("answer").innerHTML = "Restart the example, an width or height needs to be a number."
   }
     else
     {

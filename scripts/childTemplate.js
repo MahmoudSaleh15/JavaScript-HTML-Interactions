@@ -1,4 +1,6 @@
 console.log("You made it to the childTemplate.js!"); //Debugging line to console ensuring to console ensuring JavaScript link
+let stop = false;
+function javaScript () {}
 
 function main ()
 {
