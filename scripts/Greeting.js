@@ -1,12 +1,5 @@
-var d = new Date();
-var time = d.getHours();
+function greet(name) { // function for the greet and (name) = "Bob"
+  console.log("Hello, " + name + "!"); // logs the message in console
+}
 
-if (time < 12) {
-  document.write("<b>Good morning!</b>");
-}
-if (time > 12) {
-  document.write("<b>Good afternoon!</b>");
-}
-if (time == 12) {
-  document.write("<b>Go eat lunch!</b>");
-}
+greet("Bob"); // Bob is the name
